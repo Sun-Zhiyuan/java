@@ -32,8 +32,5 @@ class NumberContainers {
         }
     }
 
-    public int find(int number) {
-        var s = valueSet.get(number);
-        return s == null || s.isEmpty() ? -1 : s.first();
-    }
+
 }
